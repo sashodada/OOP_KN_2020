@@ -4,7 +4,7 @@ using namespace std;
 class Student 
 {
     public: 
-    		char name[100];
+    	char name[100];
         char course[100];
         double grades[10];
         int gradeCount;
