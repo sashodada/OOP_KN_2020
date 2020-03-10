@@ -2,9 +2,6 @@
 #include <cstring>
 using namespace std;
 
-// int, char, double ...
-// char[] -> char*
-
 class DynamicArray
 {
 private:
@@ -80,8 +77,6 @@ public:
     return this->arr;
   }
 };
-
-typedef DynamicArray dynar;
 
 int main()
 {
